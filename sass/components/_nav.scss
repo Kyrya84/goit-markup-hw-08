@@ -1,0 +1,48 @@
+.nav {
+    display: flex;
+    align-items: center;
+
+    &__list {
+            display: flex;
+            gap: 50px;
+    
+            align-items: center;
+            justify-content: center;
+            margin: 0 300px 0 0;
+        }
+}
+
+.nav__link {
+    position: relative;
+
+    color: var(--primary-text-color);
+
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+    transition: color var(--animation);
+
+    &--current::after {
+            content: '';
+            position: absolute;
+    
+            left: 0;
+            top: 46px;
+    
+            height: 4px;
+            width: 100%;
+    
+            background-color: var(--accent-color);
+            border-radius: 2px;
+        }
+
+    &:hover,
+    &:focus {
+            color: var(--accent-color);
+        }
+    &--current {
+       color: var(--accent-color);
+   }
+}
