@@ -269,9 +269,8 @@ button {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    font-weight: 500;
+    font-size: 14px;
     line-height: 1.14;
-    text-decoration: none;
     gap: 10px;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -783,6 +782,9 @@ button {
   display: -ms-flexbox;
   display: flex;
 }
+.header__logo {
+  margin: 16px 0;
+}
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .header__logo {
     margin-right: 87px;
@@ -899,6 +901,7 @@ button {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 @media screen and (min-width: 1200px) {
   .hero__button {
@@ -1323,7 +1326,7 @@ button {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .footer-logo {
     display: block;
     text-align: center;
@@ -1348,7 +1351,7 @@ button {
   text-decoration: none;
   line-height: 1.71;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .footer__link {
     display: block;
     text-align: center;
