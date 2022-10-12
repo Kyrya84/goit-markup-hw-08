@@ -1,12 +1,19 @@
 .header {
-    border: 1px solid #ececec;
+  border: 1px solid #ececec;
 
-    & .container {
+  & .container {
     display: flex;
   }
 
   &__logo {
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      margin-right: 87px;
+      align-items: center;
+    }
+
+    @media screen and (min-width: 1200px) {
       margin-right: 93px;
       align-items: center;
+    }
   }
 }

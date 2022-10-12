@@ -1,33 +1,31 @@
 // utils styles
 
-@import'./utils/variables';
-@import'./utils/visually-hidden';
+@import './utils/variables';
+@import './utils/visually-hidden';
 
 // base styles
 
-@import'./base/common';
-@import'./base/reset';
+@import './base/common';
+@import './base/reset';
 
 // components styles
 
-@import'./components/container';
-@import'./components/logo';
-@import'./components/nav';
-@import'./components/contacts';
-@import'./components/socials';
-@import'./components/modal';
+@import './components/container';
+@import './components/logo';
+@import './components/nav';
+@import './components/contacts';
+@import './components/socials';
+@import './components/modal';
+@import './components/mobile-menu';
 
 // laout styles
 
-@import'./layout/header';
-@import'./layout/hero';
-@import'./layout/skills';
-@import'./layout/work';
-@import'./layout/team';
-@import'./layout/customers';
-@import'./layout/footer';
-@import'./layout/filters';
-@import'./layout/projects';
-
-
-
+@import './layout/header';
+@import './layout/hero';
+@import './layout/skills';
+@import './layout/work';
+@import './layout/team';
+@import './layout/customers';
+@import './layout/footer';
+@import './layout/filters';
+@import './layout/projects';

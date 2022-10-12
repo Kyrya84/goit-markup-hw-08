@@ -1,17 +1,24 @@
 .logo {
-    color: var(--accent-color);
+  color: var(--accent-color);
 
-    font-family: 'Raleway';
-    font-weight: 700;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+
+  &__dark {
+    color: #000000;
+  }
+
+  &__light {
+    color: var(--text-white-color);
+  }
+
+  @media screen and (min-width: 1200px) {
     font-size: 26px;
     line-height: 1.19;
-    text-decoration: none;
-
-    &__dark {
-            color: #000000;
-        }
-
-    &__light {
-            color: var(--text-white-color);
-        }
+  }
 }
